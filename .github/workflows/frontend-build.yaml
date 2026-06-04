@@ -1,21 +1,28 @@
-test-frontend:
-  runs-on: ubuntu-latest
+name: Frontend Build
 
-  defaults:
-    run:
-      working-directory: frontend
+on:
+  push:
+  pull_request:
 
-  steps:
-    - name: Check out repository
-      uses: actions/checkout@v4
+jobs:
+  test-frontend:
+    runs-on: ubuntu-latest
 
-    - name: Set up Node
-      uses: actions/setup-node@v4
-      with:
-        node-version: "20"
+    defaults:
+      run:
+        working-directory: frontend
 
-    - name: Install dependencies
-      run: npm install
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
 
-    - name: Build frontend
-      run: npm run build
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build frontend
+        run: npm run build
