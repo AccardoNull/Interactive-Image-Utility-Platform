@@ -78,7 +78,7 @@ Backend
 - Uvicorn
 
 Development Tools
-- GitHub/Git
+- GitHub/GitHub Actions
 - VS Code
-- GitHub Actions
+- Git
 - Pytest
