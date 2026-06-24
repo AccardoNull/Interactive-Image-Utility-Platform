@@ -75,6 +75,7 @@ Frontend
 Backend
 - Python
 - FastAPI
+- REST APIs
 - Uvicorn
 
 Development Tools
