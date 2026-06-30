@@ -128,7 +128,7 @@ function App() {
        {searchResults.map((image) => (
          <div key={image.id} className="image-card">
            <a
-            href={`http://127.0.0.1:8000${image.url}`}
+            href={`http://127.0.0.1:8000/preview/${image.filename}`}
             target="_blank"
             rel="noopener noreferrer"
           >

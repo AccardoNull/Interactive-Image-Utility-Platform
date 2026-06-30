@@ -5,6 +5,8 @@ from fastapi.staticfiles import StaticFiles
 from algorithms.kmp import kmp_steps, kmp_contains
 from fastapi.middleware.cors import CORSMiddleware
 import subprocess
+from fastapi.responses import FileResponse
+from pathlib import Path
 
 app = FastAPI()
 
@@ -34,6 +36,17 @@ def run_kmp(request: KMPRequest):
     }
 
 app.mount("/images", StaticFiles(directory="static/images"), name="images")
+
+@app.get("/preview/{filename}")
+def preview_image(filename: str):
+    file_path = Path("static/images") / filename
+
+    return FileResponse(
+        file_path,
+        media_type="image/webp" if filename.lower().endswith(".webp") else None,
+        filename=filename,
+        content_disposition_type="inline"
+    )
 
 @app.get("/search")
 def search_images(q: str):
