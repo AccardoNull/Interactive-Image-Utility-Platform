@@ -1,10 +1,10 @@
-# Interactive-Algorithm-Visualizer-Image-Search-Platform
+# Interactive-Algorithm-Visualizer-Image-Utility-Platform
 ## Overview
-An interactive full-stack web application that visualizes KMP algorithm execution step-by-step to help users understand complex computational processes and utilizes the algorithm's string matching function for quick local image file search. The long-term goal of the platform is to support additional algorithms including DFA simulation and graph traversal algorithms (BFS/DFS), as well as external image search API integration.
+An interactive full-stack web application that visualizes KMP algorithm execution step-by-step to help users understand complex computational processes and utilizes the algorithm's string matching function for quick local image file search and convertion. The long-term goal of the platform is to support additional algorithms including DFA simulation and graph traversal algorithms (BFS/DFS), as well as external image search API integration.
 
 ## Demo
 Live Demo: https://interactive-algorithm-visualizer-im.vercel.app/  
-The search function is currently limited to the sample images stored in the repository, under backend/static/images.
+The search/convertion function is currently limited to the sample images stored in the repository, under backend/static/images.
 
 ## Completed features
 ### KMP visualizer
