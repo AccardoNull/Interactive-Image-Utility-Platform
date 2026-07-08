@@ -1,4 +1,4 @@
-# Interactive-Algorithm-Visualizer/Image-Utility-Platform
+# Image-Search-Utility-Platform/Algorithm Visualizer
 ## Overview
 An interactive full-stack web application that visualizes KMP algorithm execution step-by-step to help users understand complex computational processes and utilizes the algorithm's string matching function for quick local image file search and convertion. The long-term goal of the platform is to support additional algorithms including DFA simulation and graph traversal algorithms (BFS/DFS), as well as external image search API integration.
 
@@ -27,7 +27,7 @@ Built with a React frontend and FastAPI backend, the application generates detai
 ![screenshot2](ImageFolder/Screenshot2.jpg)
 ![screenshot3](ImageFolder/Screenshot3.jpg)
 
-### Local Image Utility Platform
+### Image Search Utility Platform
 
 An interactive full-stack application that enables users to locate images files using keyword-based pattern matching across filenames, tags, and descriptive metadata, then convert selected images to different formats. The framework leverages the Knuth-Morris-Pratt (KMP) string matching algorithm to efficiently identify relevant records and return searchable results through a responsive graphical interface.
 
