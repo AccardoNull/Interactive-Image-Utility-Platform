@@ -45,7 +45,7 @@ Built with a React frontend and FastAPI backend, the application automatically i
 - Clickable image previews and filenames that link directly to original image assets through custom FastAPI preview and open file locations through Windows Explorer integration
   - Added a custom FastAPI preview route to serve image assets with inline display headers for consistent browser preview behavior across JPG, PNG, and WebP files.
   - Windows Explorer integration is only supported in local Windows execution mode, while Dockerized/live demo supports KMP visualization, image search, and preview.
-- Format convertion options for the result images using Pillow
+- Format convertion options for uploaded files and search results using Pillow
 - Automated testing and continuous integration using Pytest, Git, and GitHub Actions
 
 #### Current Architecture
@@ -70,7 +70,6 @@ React Search Interface
 ![screenshot4](ImageFolder/Screenshot4.jpg)
 ![screenshot5](ImageFolder/Screenshot5.jpg)
 ![screenshot6](ImageFolder/Screenshot6.jpg)
-![screenshot7](ImageFolder/Screenshot7.jpg)
 
 ## Local Usage
 ### Set up frontend and backend server
