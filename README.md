@@ -36,6 +36,7 @@ Built with a React frontend and FastAPI backend, the application automatically i
 #### Features
 
 - Keyword-based image file search using the KMP string matching algorithm
+  - Added a token-based search layer for fuzzy matching. KMP powers exact substring matching, while the search layer handles tokenization, ranking, and flexible query matching.
 - FastAPI backend for search processing, indexing, and metadata retrieval
 - React-based frontend with dynamic query submission and result rendering
 - Static asset serving for image storage and retrieval
