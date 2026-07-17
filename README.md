@@ -85,6 +85,7 @@ Local Windows execution mode
     - uvicorn main:app --reload
 - cd frontend
   - npm run dev  
+
 Docker
 - docker compose up --build
 
