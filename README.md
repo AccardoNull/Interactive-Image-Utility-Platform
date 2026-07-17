@@ -29,7 +29,7 @@ Built with a React frontend and FastAPI backend, the application generates detai
 
 ### Image Search and Utility Platform
 
-An interactive full-stack application that enables users to perform local/online image search using keyword-based pattern matching across filenames, tags, and descriptive metadata, and convert the search results/upload images to selected formats. The framework leverages the Knuth-Morris-Pratt (KMP) string matching algorithm to efficiently identify relevant records and return searchable results through a responsive graphical interface.
+A full-stack web application that enables users to perform local/online image search using keyword-based pattern matching across filenames, tags, and descriptive metadata, and convert the search results/upload images to selected formats. The framework leverages the Knuth-Morris-Pratt (KMP) string matching algorithm to efficiently identify relevant records and return searchable results through a responsive graphical interface.
 
 Built with a React frontend and FastAPI backend, the application automatically indexes image assets and generates a structured search database for efficient retrieval, with format conversions done through Pillow library. The app is also Dockerized and deployed to cloud platgforms Railway and Vercel, and integrated with external image search APIs using SerpApi for online search functionality. User queries are processed through a custom search engine that performs pattern matching against indexed file records and displays matching images with associated metadata. 
 
@@ -100,10 +100,12 @@ Frontend
 - React
 - Vite
 - JavaScript
-- Node.js
+- HTML
+- CSS
 
 Backend
 - Python
+- Node.js
 - FastAPI
 - REST APIs
 - Uvicorn
