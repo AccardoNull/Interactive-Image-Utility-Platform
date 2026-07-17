@@ -74,7 +74,7 @@ React Search Interface
 ![screenshot4](ImageFolder/Screenshot4.jpg)  
 ##### Online image search:  
 ![screenshot5](ImageFolder/Screenshot5.jpg)  
-##### Image format converte:  
+##### Image format converter:  
 ![screenshot6](ImageFolder/Screenshot6.jpg)
 
 ## Local Setup
