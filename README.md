@@ -70,11 +70,11 @@ React Search Interface
 ```
 
 #### Screenshots
-local image search  
+##### local image search:  
 ![screenshot4](ImageFolder/Screenshot4.jpg)  
-Online image search  
+##### Online image search:  
 ![screenshot5](ImageFolder/Screenshot5.jpg)  
-Image format converter  
+##### Image format converte:  
 ![screenshot6](ImageFolder/Screenshot6.jpg)
 
 ## Local Setup
@@ -84,8 +84,7 @@ Local Windows execution mode
   - .\\.venv\Scripts\Activate.ps1
     - uvicorn main:app --reload
 - cd frontend
-  - npm run dev  
-or  
+  - npm run dev
 Docker
 - docker compose up --build
 
