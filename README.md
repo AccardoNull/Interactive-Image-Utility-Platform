@@ -99,18 +99,17 @@ Store images under backend/static/images, then run:
 Frontend
 - React
 - Vite
+- Node.js
 - JavaScript
 - HTML
 - CSS
 
 Backend
 - Python
-- Node.js
 - FastAPI
 - REST APIs
 - Uvicorn
 - Pillow
-- SerpApi
 
 Development Tools
 - GitHub/GitHub Actions
@@ -118,6 +117,7 @@ Development Tools
 - Git
 - Pytest
 - Docker
+- SerpApi
 
 Cloud deployment
 - Vercel
